@@ -1,0 +1,26 @@
+.dragable_div {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  border: 2px solid rgb(227, 22, 22);
+  position: relative;
+  padding: 5px;
+  background-color: rgb(20, 192, 227);
+}
+
+.dragable_div:hover {
+  cursor: pointer;
+}
+.icon_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-solid {
+  display: flex;
+  font-size: 50px;
+  color: blue;
+}
+.para {
+  margin: 30px 5px 10px 5px;
+}
